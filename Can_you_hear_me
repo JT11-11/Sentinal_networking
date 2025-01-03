@@ -1,0 +1,17 @@
+Task 1 :
+"https://" == Specifies the protocol used to access the resource (in this case, HTTP).
+"www.example.com" == The domain name of the server hosting the resource.
+"/index.html" == The specific location of the resource (file) on the server.
+
+
+Task 2:
+"GET" == Specifies the HTTP method used to request data from the server to retrieve resources.
+"/index.html" == PATH == Specifies the location of the resource on the server. Indicates what file is being requested.
+"HTTP/1.1" == HTTP Version == Indicates the HTTP protocol version being used to ensures compatibility between the client and server.
+"Host: www.example.com" == Specifies the domain name of the server. Necessary for identifying the target host in a request.
+
+Task 3:
+GET /hypertext/WWW/TheProject.html HTTP/1.1
+Host: info.cern.ch
+
+

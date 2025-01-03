@@ -1,0 +1,31 @@
+Part 1:
+"HTTP/1.1" == Version of HTTP used to check compatibility
+"200 Ok" == Status code for successfully transmission of request
+
+Part 2:
+ "Content-type" == Type of media transmitted
+ "Server" == Find out the origins of the server aka what is the server software
+ "Content-length" == Find out the length in bytes of the contents transmitted
+
+Part 3:
+"200"== 200 Ok == Successfully transmitted that specific data
+"404"== 404 Not Found == The data cannot be found
+"500"== 500 Internal Server Error == There is a backend server issue which cannot allow the data to be rendered
+"301"== 301 Moved Permanently == The data has been moved to a different url
+"403"== 403 Forbidden == The data cannot be rendered to user due to security and privacy reasons.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

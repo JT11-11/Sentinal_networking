@@ -1,0 +1,22 @@
+Potential Leaks Found:
+
+FTP Command: AUTH TLS
+FTP Command: AUTH SSL
+FTP Command: USER alex
+FTP Command: PASS L@wyer9
+FTP Command: AUTH TLS
+FTP Command: AUTH SSL
+FTP Command: USER alex
+FTP Command: PASS L@wyer9
+FTP Command: TYPE I
+HTTP Request: Host: localhost:8000, URI: /
+HTTP Request: Host: localhost:8000, URI: /
+HTTP Authorization: Basic Base64:             YWxleGNoYW4xOkxAd3llcjk5OQ==
+HTTP Request: Host: localhost:8000, URI: /
+HTTP Authorization: Basic YWxleGNoYW4xOkxAd3llcjk5OQ==
+HTTP Request: Host: localhost:8000, URI: /
+HTTP Authorization: Basic YWxleGNoYW4xOkxAd3llcjk5OQ==
+HTTP Request: Host: localhost:8000, URI: /
+HTTP Authorization: Basic Base64:                 YWxleGNoYW4xOkxAd3llcjk5OQ==
+HTTP Request: Host: localhost:8000, URI: /favicon.ico
+HTTP Authorization: Basic Base64:                 YWxleGNoYW4xOkxAd3llcjk5OQ==

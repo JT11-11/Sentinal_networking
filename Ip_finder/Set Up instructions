@@ -1,0 +1,11 @@
+sudo apt-get update
+sudo apt-get install build-essential
+sudo apt-get install libcurl4-openssl-dev
+sudo apt-get install nlohmann-json3-dev
+nano main.cpp
+
+//Compilation
+g++ -o ip_analyzer main.cpp -lcurl -I/usr/include/nlohmann
+
+//Run
+./ip_analyzer

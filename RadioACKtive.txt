@@ -1,0 +1,15 @@
+Scenario 1: 
+- The ACK is sent by the server which contains the sequence number of the next transmission 
+- Client will not retransmit the package as the ACK is sent successfully 
+Scenario 2:
+- The ACK is not transmitted out as the server never recevie any package. 
+- Client will retransmit for a max number of times 
+Scenario 3:
+- The same identical ACK package will be sent out twice 
+- Sent with same sequence number 
+Scenario 4:
+- Server will detect corruption through checksum verification
+- The corrupted packets will be discarded 
+Scenario 5:
+- Server sends ACK for last in-order packet received which indicates next expected sequence number
+- Duplicate ACKs sent for each out-of-order packet

@@ -1,0 +1,45 @@
+Q1) We need ports primarily to allow multiple devices to use the same application simultaneously. 
+Q2a) When a client connets to a server, the source and destination port of the request are the same 
+False - The client and server ports are different. The server typically uses a well-known port but the client uses a randomly assigned  port.
+
+Q2b) When a client connects to a server, the destination port of the request is different every time
+FALSE - The destination port remains constant for a specific service to determine which service being access.
+
+Q2c) When a client connects to a server, the source port of the request is (usually) different every time
+TRUE - The OS will assign the client a port within a range
+
+Q2d) When multiple clients connect to a server, the destination port of the request is different for each client
+FALSE - All clients connecting to the same service on a server use the same destination port. 
+
+Q2e) When multiple clients connect to a server, the source port of the request is (usually) different for each Client
+TRUE - Each client needs a unique source port to distinguish between them. 
+
+
+Q3)
+Connection-oriented? UDP--No, TCP--Yes.
+Reliable? UDP--No, TCP--Yes.
+Ordered? UDP--No, TCP--Yes.
+Speed? UDP--Faster, TCP--Slower.
+Overhead? UDP--Low, TCP--High.
+
+Q4)
+Video Streaming -- UDP -- Due to continuous real time streaming, UDP is more suitable as dropping of some frames are acceptable. 
+Email -- TCP -- Requires reliablity, ordered delivery to ensure message transmission.
+Online multiplayer game -- UDP -- Faster response timing needed so fast transmission of packets are needed for real time action. Lags are acceptable. 
+File transfer -- TCP -- Need gurantee delivery of the package aka the file hence TCP is more ideal. 
+Live audio streaming -- UDP -- Similiar to Video Streaming whereby lag is possible so UDP. 
+Web browsing -- TCP -- Requires reliable delivery of the web content. 
+IoT Sensor Network -- UDP -- The miss collection of data is acceptable. 
+Database Replication -- TCP -- All documents in the Database needs to be delivered correctly and proper order. 
+
+Q5) 
+20, 21 -- FTP -- 20 for data transfer, 21 for control commands. 
+22 -- SSH -- Encrypted remote system for admin and file transfer.
+23 -- Telnet -- Leagcy network.
+25 -- SMTP -- Sending emails between servers.
+53 -- DNS -- For domain names to IP addressees on the internet. 
+80 -- HTTP -- For web browsing. 
+443 -- HTTPS -- Sercure form of HTTP.
+
+
+
